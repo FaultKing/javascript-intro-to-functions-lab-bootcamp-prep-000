@@ -7,5 +7,5 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  return string.toLowerCase(hello)
+  return string.toLowerCase('hello')
 }
