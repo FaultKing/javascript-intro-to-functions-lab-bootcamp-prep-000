@@ -7,18 +7,5 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  return string.toLowerCase()
+  return string.mixedCase()
 }
-var uppercase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase
-
-var lowercase = 'hello!'
-
-lowercase.toLowerCase() === lowercase
-
-var mixedCase = 'Hi there!'
-
-mixedCase.toLowerCase() === mixedCase
-
-mixedCase.toUpperCase() === mixedCase
